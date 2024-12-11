@@ -33,7 +33,7 @@ func write(wg *sync.WaitGroup) {
 
 func main() {
 	//调用一次
-	//var once sync.Once
+	//var once syncMap.Once
 	//once.Do()
 	var wg sync.WaitGroup
 	start := time.Now()
